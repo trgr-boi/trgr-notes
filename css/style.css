@@ -1,0 +1,29 @@
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px;
+
+  max-width: 860px;
+
+  background-color: black;
+  color: rgb(250, 242, 226);
+  /* line-height: 1.1; */
+}
+
+.list {
+  line-height: 0.6;
+}
+
+a {
+  color: rgb(231, 204, 151);
+}
+
+h1,
+h2,
+h3,
+h4,
+hr {
+  color: rgb(112, 84, 73);
+}
