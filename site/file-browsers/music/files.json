@@ -1,16 +1,7 @@
 [
-  {
-    "path": "media/ambnt-gitr-2026_04_14.mp3"
-  },
-  {
-    "path": "media/giezal-2026_04_10.mp3",
-    "comment": "I have only heard this on laptop speakers..."
-  },
-  {
-    "path": "media/oqiluFGVYB-2025_12_14.mp3"
-  },
-  {
-    "path": "media/the-dog-is-holding-an-april-in-its-melt.png",
-    "comment": "The dog is holding an april in its melt"
-  }
+  "media/001-2026_04_15.mp3",
+  "media/ambnt-gitr-2026_04_14.mp3",
+  "media/giezal-2026_04_10.mp3",
+  "media/oqiluFGVYB-2025_12_14.mp3",
+  "media/the-dog-is-holding-an-april-in-its-melt.png"
 ]
