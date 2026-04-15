@@ -33,6 +33,13 @@ json_escape() {
   printf '%s' "$s"
 }
 
+json_basename() {
+  local s="$1"
+  s="${s##*/}"
+  s="${s%.*}"
+  printf '%s' "$s"
+}
+
 files=()
 while IFS= read -r file; do
   files+=("$file")
@@ -42,12 +49,13 @@ done < <(find "$media_dir" -type f | LC_ALL=C sort)
   echo "["
   for i in "${!files[@]}"; do
     rel_path="${files[$i]#"$target_dir"/}"
-    escaped="$(json_escape "$rel_path")"
+    escaped_file="$(json_escape "$rel_path")"
+    escaped_title="$(json_escape "$(json_basename "$rel_path")")"
 
     if [[ $i -lt $((${#files[@]} - 1)) ]]; then
-      printf '  "%s",\n' "$escaped"
+      printf '  {"file": "%s", "title": "%s", "comment": ""},\n' "$escaped_file" "$escaped_title"
     else
-      printf '  "%s"\n' "$escaped"
+      printf '  {"file": "%s", "title": "%s", "comment": ""}\n' "$escaped_file" "$escaped_title"
     fi
   done
   echo "]"

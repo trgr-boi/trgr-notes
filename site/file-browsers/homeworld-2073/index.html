@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>trgr notes | Homeworld 2073</title>
+    <link href="../../../src/css/file-browser.css" rel="stylesheet" />
+    <link href="../../../src/css/homeworld-2073-browser.css" rel="stylesheet" />
+  </head>
+
+  <body data-preview-browser data-preview-manifests="./files.json">
+    <main class="album-shell">
+      <section class="album-header">
+        <div class="album-cover-frame">
+          <img
+            class="album-cover"
+            src="../../../src/img/homeworld-2073-cover.jpg"
+            alt="Homeworld 2073 cover art"
+          />
+        </div>
+
+        <div>
+          <p class="album-kicker">File Browser / Audio Archive</p>
+          <h1 class="album-title">Homeworld 2073</h1>
+          <p class="album-tagline">trgr</p>
+          <p class="album-explainer">SAMPLE TEXT</p>
+          <p class="album-meta" aria-label="Album details">
+            <span>Jungle</span>
+            <span>Intelligent DnB</span>
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="preview-slot"
+        class="preview-slot"
+        aria-label="Preview"
+      ></section>
+
+      <section class="album-panel" aria-label="Track list">
+        <div class="album-panel-header">
+          <h2>Track List</h2>
+          <p id="status"><i>Loading files...</i></p>
+        </div>
+
+        <div id="file-list" class="list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+      <a href="../../commonplace.html">
+        <p>Back</p>
+      </a>
+    </footer>
+
+    <script src="../../../src/js/file-browser.js"></script>
+    <script src="../../../src/js/preview.js"></script>
+  </body>
+</html>

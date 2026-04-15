@@ -1,7 +1,27 @@
 [
-  "media/001-2026_04_15.mp3",
-  "media/ambnt-gitr-2026_04_14.mp3",
-  "media/giezal-2026_04_10.mp3",
-  "media/oqiluFGVYB-2025_12_14.mp3",
-  "media/the-dog-is-holding-an-april-in-its-melt.png"
+  {
+    "file": "media/001-2026_04_15.mp3",
+    "title": "001-2026_04_15",
+    "comment": ""
+  },
+  {
+    "file": "media/ambnt-gitr-2026_04_14.mp3",
+    "title": "ambnt-gitr-2026_04_14",
+    "comment": ""
+  },
+  {
+    "file": "media/giezal-2026_04_10.mp3",
+    "title": "giezal-2026_04_10",
+    "comment": "Made this on laptop speakers..."
+  },
+  {
+    "file": "media/oqiluFGVYB-2025_12_14.mp3",
+    "title": "oqiluFGVYB-2025_12_14",
+    "comment": ""
+  },
+  {
+    "file": "media/the-dog-is-holding-an-april-in-its-melt.png",
+    "title": "the-dog-is-holding-an-april-in-its-melt",
+    "comment": ""
+  }
 ]
