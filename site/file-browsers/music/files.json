@@ -1,37 +1,32 @@
 [
   {
-    "file": "media/001-2026_04_15.mp3",
-    "title": "001-2026_04_15",
+    "file": "media/ambient_patch_001-2026_04_19.mp3",
+    "title": "ambient_patch_001-2026_04-19.mp3",
+    "comment": "A very slow and evolving patch. Might release this sometime."
+  },
+  {
+    "file": "media/snippet_002-2026_04_15",
+    "title": "snippet_002-2026_04_15.mp3",
     "comment": ""
   },
   {
-    "file": "media/ambnt-gitr-2026_04_14.mp3",
-    "title": "ambnt-gitr-2026_04_14",
+    "file": "media/snippet_001-2026_04_14.mp3",
+    "title": "snippet_001-2026_04_14.mp3",
     "comment": ""
   },
   {
     "file": "media/giezal-2026_04_10.mp3",
-    "title": "giezal-2026_04_10",
+    "title": "giezal-2026_04_10.mp3",
     "comment": "Made this on laptop speakers..."
   },
   {
-    "file": "media/justDrums.mp3",
-    "title": "justDrums-2026-04-19 (WARNING: LOUD)",
-    "comment": ""
-  },
-  {
     "file": "media/oqiluFGVYB-2025_12_14.mp3",
-    "title": "oqiluFGVYB-2025_12_14",
+    "title": "oqiluFGVYB-2025_12_14.mp3",
     "comment": ""
   },
   {
     "file": "media/the-dog-is-holding-an-april-in-its-melt.png",
-    "title": "the-dog-is-holding-an-april-in-its-melt",
-    "comment": ""
-  },
-  {
-    "file": "media/thisSucks.mp3",
-    "title": "thisSucks-2026-04-19",
-    "comment": ""
+    "title": "the-dog-is-holding-an-april-in-its-melt.png",
+    "comment": "I just liked this one..."
   }
 ]
